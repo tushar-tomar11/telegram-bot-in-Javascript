@@ -1,0 +1,21 @@
+Guide for Other Builders
+1. Clone or Download the Repository:
+o Other developers can clone your repository to their local machine:
+bash
+Copy code
+git clone <REPOSITORY_URL>
+cd telegram-bot-boilerplate
+2. Install Dependencies:
+bash
+Copy code
+npm install
+3. Configure the Bot Token:
+o Replace 'YOUR_TELEGRAM_BOT_TOKEN' in index.js with their own Telegram bot token.
+4. Run the Bot:
+bash
+Copy code
+node index.js
+5. Extend Functionality:
+o Modify tradingBot.js to implement additional features and functionalities.
+o Update index.js to add new commands and handlers as needed.
+
